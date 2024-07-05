@@ -13,6 +13,7 @@ Definition: Abstractive methods generate summaries that may contain new phrases,
 Process: These methods interpret and understand the text using natural language understanding techniques, then generate a concise summary that captures the main ideas.
 
 Technologies Used
+
 Hugging Face API
 Postman
 Replit
