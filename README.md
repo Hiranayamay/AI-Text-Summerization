@@ -15,7 +15,9 @@ Process: These methods interpret and understand the text using natural language 
 Technologies Used
 
 Hugging Face API
+
 Postman
+
 Replit
 
 Clone the repository:
@@ -60,6 +62,9 @@ Contributing
 If you'd like to contribute to this project, please follow these steps:
 
 Fork the repository.
+
+<img width="1454" alt="Screenshot 2024-07-07 at 1 52 36 PM" src="https://github.com/Hiranayamay/AI-Text-Summerization/assets/107201577/7416021e-8f5d-412b-8f67-b4eec6f0aab8">
+
 Create a new branch (git checkout -b feature/your-feature).
 Make your changes.
 Commit your changes (git commit -am 'Add some feature').
