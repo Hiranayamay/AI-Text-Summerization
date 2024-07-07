@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>AI Text Summarizer App</title>
+  <section style="text-align: center;">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body> 
+  <header>
+   <div class="content">
+  <div class="d-flex flex-column justify-content-center w-100 h-100">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <ul class="nav" id="nav">
+          <a href="#">
+            <h1 class="marquee" class="fw-light text-white m-0">
+              <marquee behavior="slide" direction="left" scrollamount="50" scrolldelay="60" loop="1">
+                AI Text Summarizer
+              </marquee>
+            </h1>
+          </a>
+        </ul>
+    </header>
+        <div class="text-container" id="text-container">
+          <p style="font-size: 22px; marquee behavior="alternate" direction="left" scrollamount="50" scrolldelay="60" loop="1">Welcome to the AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts.</p>
+        </div>
+      <div class="text-container" id="text-container"><p style="font-size: 22px;">Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, our app can assist you.</p></div>
+      <div class="text-container" id="text-container"><p style="font-size: 22px;">Simply paste your text into the text area below and click the "Submit" button.</p></div>
+    </section>
+
+    <section class="container" style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-bottom: 40px;color:">
+      <div class="text-box" style="flex: 1; margin: 10px; min-width: 300px;">
+        <label for="text_to_summarize" style="display: block; margin-bottom: 10px;color:grey">Enter text to summarize:</label>
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000" style="width: 100%; height: 200px;"></textarea>
+        <button id="submit-button" class="submit-button" style="width: 100%; padding: 10px; margin-top: 10px;">
+         <span class="submit-button-class" style="color:#990505">Submit/Summarize</span></div>
+        </button>
+      </div>
+      <div class="text-box" style="flex: 1; margin: 10px; min-width: 300px;">
+        <label for="summary" style="display: block; margin-bottom: 10px;color:grey;">Summarized text:</label>
+        <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here" style="width: 100%; height: 200px;"></textarea>
+      </div>
+    </section>
+
+    <section class="cta-section" style="background-color: #f2f2f2; padding: 20px; border-radius: 10px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); text-align: center;">
+      <div class="cta-content">
+        <div class="cta-text">
+          <h2>This Project was built by Hiranayamay Tyagi</h2>
+        </div>
+        <img src="images/learning.png" alt="Learning" style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 20px;">
+      </div>
+    </section>
+      </div>
+    </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
